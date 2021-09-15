@@ -37,6 +37,8 @@ console.log(fullName);
   - Console.log your last favorite food
 */
 
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[2]);
 
 
 /* 4. Change a property of an existing object.
@@ -46,6 +48,9 @@ console.log(fullName);
   - Console.log your updated shoe count.
 */
 
+me.shoeCount++;
+console.log(me.shoeCount);
+
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -53,3 +58,7 @@ console.log(fullName);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'teal';
+
+console.log(me.favoriteColor);
